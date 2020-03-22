@@ -10,7 +10,7 @@ public class App
 		Punto p2 = new Punto(2,2);
 		Recta r1 = new Recta(p1, p2);
 		System.out.println("Pendiente de la recta R1: "+ r1.pendiente());
-		Punto p3 = new Punto(3,3);
+		Punto p3 = new Punto(3,4);
 		Recta r2 = new Recta(p2, p3);
 		System.out.println("R1 es igual R2: "+ r1.equals(r2));
 	}
